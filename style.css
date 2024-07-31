@@ -5,10 +5,25 @@
     align-items: center;
 }
 
+#presentacion {
+    height: 90vh;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    background-image: url("assets/cover.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
 .proyecto{
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
+}
+
+.texto-gigante{
+    font-size: 80px;
 }
 
 #proyecto-1{

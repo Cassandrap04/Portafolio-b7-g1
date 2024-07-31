@@ -18,7 +18,7 @@
 
     <header>
         <!--Cabecera de mi pagina-->
-        <nav class="navbar navbar-expand-lg bg-black" data-bs-theme="dark">
+        <nav class="navbar fixed-top navbar-expand-lg bg-black" data-bs-theme="dark">
             <div class="container">
                 <a class="navbar-brand text-white" href="#">Cassandra</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
@@ -49,19 +49,19 @@
         </nav>
     </header>
     <main>
-        <section id="presentacion"
-            class="container col-xxl-8 px-4 py-5 d-flex justify-content-start align-items-center">
-            <div class="row flex-lg-row align-items-center g-5 py-5">
-                <div class="col-lg-6">
-                    <h1 class="display-5 fw-bold text-body-emphasis lh-1 mb-3">Cassandra Cruz
-                    </h1>
-                    <p class="lead">Estudiante de Ingenieria en Tecnologia de Software, creativa y apasionada por
-                        aprender. Me encanta descubrir cosas nuevas y encontrar soluciones innovadoras para los desafíos
-                        tecnológicos.</p>
-                    <div class="d-grid gap-2 d-md-flex justify-content-md-start">
-                        <button type="button" class="btn btn-primary btn-lg px-4 me-md-2">Contactame</button>
-                        <button type="button"
-                            class="btn btn-outline-secondary btn-lg px-4">casscb2016@gmail.com</button>
+        <section id="presentacion" class="container-fluid" data-bs-theme="dark"
+            >
+            <div class="container col-xxl-8 px-4 py-5 d-flex justify-content-start align-items-center>
+                <div class="row flex-lg-row align-items-center g-5 py-5">
+                    <div class="col-lg-6">
+                        <h1 class="display-5 fw-bold text-white lh-1 mb-3">Cassandra Cruz
+                        </h1>
+                        <p class="lead text-white text-shadow-1">Estudiante de Ingenieria en Tecnologia de Software, creativa y apasionada por aprender. Me encanta descubrir cosas nuevas y encontrar soluciones innovadoras para los desafíos tecnológicos.</p>
+                        <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+                            <button type="button" class="btn btn-light btn-lg px-4 me-md-2">Contáctame</button>
+                            <button type="button"
+                                class="btn btn-dark btn-lg px-4">casscb2016@gmail.com</button>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -115,8 +115,9 @@
                             <ul class="d-flex list-unstyled mt-auto">
                                 <li class="d-flex align-items-center me-3">
                                     <i class="bi bi-code-square"></i>
-                                    <a href="https://clon-google-three.vercel.app/" target="_blank" class="ps-3"> URL</a>
-                                
+                                    <a href="https://clon-google-three.vercel.app/" target="_blank" class="ps-3">
+                                        URL</a>
+
                                 </li>
                             </ul>
                         </div>
@@ -131,27 +132,29 @@
                             <ul class="d-flex list-unstyled mt-auto">
                                 <li class="d-flex align-items-center me-3">
                                     <i class="bi bi-code-square"></i>
-                                    <a href="https://drive.google.com/file/d/1DgTlOf-lb8iLQ2vAq9jIOLQr9Kw-5_La/view?usp=drive_link" target="_blank" class="ps-3"> URL</a>
-                                
+                                    <a href="https://drive.google.com/file/d/1DgTlOf-lb8iLQ2vAq9jIOLQr9Kw-5_La/view?usp=drive_link"
+                                        target="_blank" class="ps-3"> URL</a>
+
                                 </li>
                             </ul>
                         </div>
                     </div>
                 </div>
-                
+
 
 
             </div>
         </section>
 
         <section id="testimonios">
-            <div id="myCarousel" class="carousel carousel-dark slide mb-6 " data-bs-theme="dark" data-bs-ride="carousel">
-                
+            <div id="myCarousel" class="carousel carousel-dark slide mb-6 " data-bs-theme="dark"
+                data-bs-ride="carousel">
+
                 <div class="carousel-inner">
 
                     <div class="carousel-item active">
                         <article class="container text-center">
-                            <img class="rounded-pill" src="assets/dipper.webp" height="200"  alt="dipper">
+                            <img class="rounded-pill" src="assets/dipper.webp" height="200" alt="dipper">
                             <h3>Javier Isai</h3>
                         </article>
                         <p class="text-center"><i>"Mi hermana es la mejor"</i></p>
@@ -159,18 +162,18 @@
 
                     <div class="carousel-item">
                         <article class="container text-center">
-                            <img class="rounded-pill" src="assets/homero.webp" height="200"  alt="dipper">
+                            <img class="rounded-pill" src="assets/homero.webp" height="200" alt="dipper">
                             <h3>Javier Cruz</h3>
                         </article>
                         <p class="text-center"><i>"Mi hija es muy inteligente"</i></p>
                     </div>
 
-                    <div class="carousel-item">
+                    <div class="carousel-item ">
                         <article class="container text-center">
-                            <img class="rounded-pill" src="assets/mamá.jpg" height="200"  alt="dipper">
+                            <img class="rounded-pill" src="assets/mamá.jpg" height="200" alt="dipper">
                             <h3>Azucena Bernal</h3>
                         </article>
-                        <p class="text-center"><i>"Mi hija es buena estudiante"</i></p>
+                        <p class="text-center"><i>"Mi hija es muy buena estudiante"</i></p>
                     </div>
                 </div>
                 <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
@@ -187,15 +190,35 @@
 
     </main>
 
-    <footer class="py-3 my-4" id="contacto">
+    <footer id="contacto" class="bg-black py-3" data-bs-theme="dark">
+        <h2 class="text-center text-white mt-5 texto-gigante">
+            <i class="bi bi-code"></i>
+        </h2>
+        <h5 class="text-white text-center my-5"><i>"Todo lo que siempre has querido está al otro lado del miedo."</i></h5>
         <ul class="nav justify-content-center border-bottom pb-3 mb-3">
-            <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Home</a></li>
-            <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Features</a></li>
-            <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Pricing</a></li>
-            <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">FAQs</a></li>
-            <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">About</a></li>
+            <li class="nav-item fs-1">
+                <a href="https://github.com/Cassandrap04" target="_blank" class="nav-link px-2 text-body-secondary">
+                    <i class="bi bi-github text-white"></i>
+                </a>
+            </li>
+            <li class="nav-item fs-1">
+                <a href="https://www.instagram.com/csslz04/" target="_blank" class="nav-link px-2 text-body-secondary">
+                    <i class="bi bi-instagram text-white"></i>
+                </a>
+            </li>
+            <li class="nav-item fs-1">
+                <a href="https://www.linkedin.com/in/cassandra-cruz-bernal-45280831b/" target="_blank" class="nav-link px-2 text-body-secondary">
+                    <i class="bi bi-linkedin text-white"></i>
+                </a>
+            </li>
+            <li class="nav-item fs-1">
+                <a href="https://www.tiktok.com/@casslth?_t=8oUC2NBUCpS&_r=1" target="_blank" class="nav-link px-2 text-body-secondary">
+                    <i class="bi bi-tiktok text-white"></i>
+                </a>
+            </li>
+
         </ul>
-        <p class="text-center text-body-secondary">© 2024 Company, Inc</p>
+        <p class="text-center text-info-emphasis">© 2024 Cassandra, TECHNOLOCHICAS PRO</p>
     </footer>
 
 
