@@ -14,7 +14,10 @@
     <link rel="stylesheet" href="style.css">
 </head>
 
-<body>
+<body id="audio">
+    <audio autoplay>
+        <source src="assets/music/please.mp3" type="audio/mpeg"> 
+    </audio>
 
     <header>
         <!--Cabecera de mi pagina-->
@@ -41,6 +44,11 @@
                         </li>
                         <li class="nav-item">
                             <a class="nav-link text-white" href="#contacto">Contacto</a>
+                        </li>
+
+
+                        <li class="nav-item">
+                            <button id="pauseButton">Pausar</button>
                         </li>
 
                     </ul>
@@ -194,6 +202,11 @@
         <h2 class="text-center text-white mt-5 texto-gigante">
             <i class="bi bi-code"></i>
         </h2>
+
+        <div class="text-center">
+            <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSd3sykBtE6RwO-AyOAVlcHSIRhLs9e3HWngl89HadmfjIIn9A/viewform?usp=sf_link" width="640" height="350" frameborder="0" marginheight="0" marginwidth="0">Cargando…</iframe> 
+        </div>
+
         <h5 id="frase" class="text-white text-center my-5"><i>"Todo lo que siempre has querido está al otro lado del miedo."</i>
         </h5>
         <ul class="nav justify-content-center border-bottom pb-3 mb-3">
