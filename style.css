@@ -35,6 +35,10 @@
     background-image: url('assets/paginapersonal.PNG');
 }
 
+#proyecto-3{
+    background-image: url('assets/port.PNG') ;
+}
+
 .text-shadow-1 {
     text-shadow: -2px 0px 6px rgba(0, 0, 0, 1);
 }
